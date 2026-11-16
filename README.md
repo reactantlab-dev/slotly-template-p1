@@ -1,2 +1,5 @@
-# slotly-template-p1
-P1 check template (not the real Slotly template)
+Push rejected? Accept the invite.
+
+# P1 check repository
+
+Minimal template used to verify the GitHub cycle: a test, a `grade` workflow, protected `main`.
