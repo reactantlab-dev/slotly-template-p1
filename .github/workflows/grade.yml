@@ -1,0 +1,13 @@
+name: grade
+on:
+  pull_request:
+  push:
+permissions:
+  contents: read
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: node --test
